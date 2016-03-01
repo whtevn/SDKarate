@@ -1,16 +1,16 @@
 {
-  "name": "sdkarate",
-  "version": "0.0.0",
-  "description": "pull an sdk out of a routest definition",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "routest": "^0.3.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+	"name": "sdkarate",
+	"version": "0.0.1",
+	"description": "pull an sdk out of a routest definition",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"routest": "^0.3.3"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT"
 }

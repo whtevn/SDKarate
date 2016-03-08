@@ -1,5 +1,5 @@
 function sdkarate(api, sdk){
-  sdk = {} || sdk;
+  sdk = sdk || {} ;
   for(action in api){
     if(typeof api[action] === 'function'){
      sdk = SDKAction(api, action, sdk);

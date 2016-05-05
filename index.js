@@ -1,8 +1,9 @@
-function sdkarate(api, sdk){
+function sdkarate(api, sdk, sdkaction){
   sdk = sdk || {} ;
+  if(sdkaction === undefined) sdkaction = SDKAction;
   for(action in api){
     if(typeof api[action] === 'function'){
-     sdk = SDKAction(api, action, sdk);
+     sdk = sdkaction(api, action, sdk);
     }
   }
   return sdk;

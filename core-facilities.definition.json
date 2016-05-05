@@ -1,0 +1,11 @@
+{
+	"scheme": "http://",
+	"host": "facilities.eventlink.local",
+	"sub_domain": "facilities",
+	"port": 80,
+	"path": "/",
+	"ssl": false,
+	"headers": {
+		"Content-Type": "application/json"
+	}
+}

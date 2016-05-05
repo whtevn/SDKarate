@@ -1,6 +1,6 @@
 {
 	"name": "sdkarate",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "pull an sdk out of a routest definition",
 	"main": "index.js",
 	"dependencies": {},
